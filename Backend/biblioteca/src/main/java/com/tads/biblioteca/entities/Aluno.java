@@ -5,8 +5,8 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -20,9 +20,6 @@ public class Aluno {
     private String nome;
     private String matricula;
 
-    @ManyToMany
-    @JoinTable(name = "tb_aluno_livro",
-            joinColumns = @JoinColumn(name = "aluno_id"),
-            inverseJoinColumns = @JoinColumn(name = "livro_id"))
-    private Set<Livro> livros = new HashSet<>();
+    @OneToMany(mappedBy = "aluno")
+    private List<Aluguel> alugueis = new ArrayList<>();
 }

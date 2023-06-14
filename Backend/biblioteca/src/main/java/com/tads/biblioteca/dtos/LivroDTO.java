@@ -14,7 +14,5 @@ public class LivroDTO {
     private String nome;
     private String autor;
     private String description;
-    private LocalDate dataAluguel;
-    private LocalDate dataDevolucao;
 
 }

@@ -1,18 +1,16 @@
 package com.tads.biblioteca.entities;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
 
 @Getter
 @Setter
 @Entity
-@RequiredArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "tb_livro")
 public class Livro {
     @Id
@@ -21,9 +19,6 @@ public class Livro {
     private String nome;
     private String autor;
     private String description;
-    private LocalDate dataAluguel;
-    private LocalDate dataDevolucao;
-    @Transient
     @ManyToMany(mappedBy = "livros")
-    private Set<Aluno> alunos = new HashSet<>();
+    private Set<Aluguel> alugueis = new HashSet<>();
 }

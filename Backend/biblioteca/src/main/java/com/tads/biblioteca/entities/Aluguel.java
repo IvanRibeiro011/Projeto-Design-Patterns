@@ -13,12 +13,14 @@ import java.util.Set;
 @Setter
 @EqualsAndHashCode
 @Entity
+@Table(name = "tb_aluguel")
 public class Aluguel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private LocalDate dataAluguel;
+    private LocalDate dataEstipulada;
     private LocalDate dataDevolucao;
     @ManyToOne
     @JoinColumn(name = "aluno_id")

@@ -1,27 +1,3 @@
 
-
-OBackend/biblioteca/src/main/java/com/tads/biblioteca/services/LivroService.java,f\9\f978ffc7c2ed8a2133b46dd8de2e78b51bc79d6d
-
-OBackend/biblioteca/src/main/java/com/tads/biblioteca/services/AlunoService.java,4\3\43b1a017176eedc5825e8183cb050160bb9ca2cf
 Ö
 UBackend/biblioteca/src/main/java/com/tads/biblioteca/controllers/AlunoController.java,e\e\ee7e2702e069c8c434dec6354a22078db5e06207
-z
-JBackend/biblioteca/src/main/java/com/tads/biblioteca/entities/Aluguel.java,c\b\cb40495e15c5d5b9fe1c1253a0285beb9bcda133
-x
-HBackend/biblioteca/src/main/java/com/tads/biblioteca/entities/Aluno.java,8\b\8ba0cce1113fab10e6e255b6aa6e873529b00278
-x
-HBackend/biblioteca/src/main/java/com/tads/biblioteca/entities/Livro.java,c\f\cf7f3c7a499a35f6db86ed8ae6c4cd8b5fec9de9
-á
-WBackend/biblioteca/src/main/java/com/tads/biblioteca/controllers/AluguelController.java,4\3\43602563fcb2a9c18a3a1c12724cf4ed1adf3402
-w
-GBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/AlunoDTO.java,1\7\17c6fb18f8c38b2016f634b0bf6fbc882f45f7ef
-y
-IBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/AluguelDTO.java,9\d\9de4eced28b95cfc0383a5a5b6a2e4098454bffa
-w
-GBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/LivroDTO.java,c\e\ce1b5c5c6c2cd6fcc4d162f8477d6933cd1cfa1b
-ä
-ZBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/response/AluguelResponseDTO.java,a\1\a1ad2ff7ce2ce022362a4e1597098db374bccf78
-Å
-QBackend/biblioteca/src/main/java/com/tads/biblioteca/services/AluguelService.java,6\3\63a8068c75b134cb083745b1bf35061d40275161
-à
-XBackend/biblioteca/src/main/java/com/tads/biblioteca/repositories/AluguelRepository.java,9\0\90b0dddcbe2b3fee565825c962e665de90940ec0

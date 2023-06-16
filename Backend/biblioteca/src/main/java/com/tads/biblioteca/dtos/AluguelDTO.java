@@ -17,6 +17,7 @@ public class AluguelDTO {
 
     private LocalDate dataAluguel;
     private LocalDate dataDevolucao;
+    private LocalDate dataEstipulada;
 
     private Long alunoId;
 

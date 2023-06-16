@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class LivroService {
+
     @Autowired
     private LivroRepository repository;
     @Autowired
@@ -28,4 +29,6 @@ public class LivroService {
         Page<Livro> livros = repository.findAll(pageable);
         return livros.map(x -> mapper.map(x, LivroDTO.class));
     }
+
+
 }

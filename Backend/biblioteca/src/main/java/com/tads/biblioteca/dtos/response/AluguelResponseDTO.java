@@ -18,8 +18,9 @@ public class AluguelResponseDTO {
 
     private LocalDate dataAluguel;
     private LocalDate dataDevolucao;
+    private LocalDate dataEstipulada;
+    private Double total;
 
     private Long alunoId;
 
-    private List<LivroDTO> livros = new ArrayList<>();
 }

@@ -19,6 +19,7 @@ public class AluguelResponseDTO {
     private LocalDate dataAluguel;
     private LocalDate dataDevolucao;
     private LocalDate dataEstipulada;
+    private Boolean pendente;
     private Double total;
 
     private Long alunoId;

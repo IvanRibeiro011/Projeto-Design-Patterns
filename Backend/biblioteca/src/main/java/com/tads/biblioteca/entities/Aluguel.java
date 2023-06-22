@@ -16,14 +16,16 @@ import java.util.Set;
 @Table(name = "tb_aluguel")
 public class Aluguel {
     @Id
+    @Column(name = "aluguel_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private LocalDate dataAluguel;
     private LocalDate dataEstipulada;
     private LocalDate dataDevolucao;
+    private Boolean pendente;
     @ManyToOne
-    @JoinColumn(name = "aluno_id")
+    @JoinColumn(name = "a_id")
     private Aluno aluno;
 
     @ManyToMany

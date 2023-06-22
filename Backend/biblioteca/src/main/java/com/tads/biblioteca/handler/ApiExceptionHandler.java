@@ -1,6 +1,7 @@
 package com.tads.biblioteca.handler;
 
 import com.tads.biblioteca.exceptions.ApiErrorMessage;
+import com.tads.biblioteca.exceptions.EntityRegistrationException;
 import com.tads.biblioteca.exceptions.InvalidCalculationTypeException;
 import com.tads.biblioteca.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -22,6 +23,12 @@ public class ApiExceptionHandler {
     }
     @ExceptionHandler(InvalidCalculationTypeException.class)
     public ResponseEntity<ApiErrorMessage> invalidCalculationType(InvalidCalculationTypeException e, HttpServletRequest request) {
+        HttpStatus status = HttpStatus.BAD_REQUEST;
+        ApiErrorMessage err = new ApiErrorMessage(Instant.now(), status.value(), e.getMessage(), request.getRequestURI());
+        return ResponseEntity.status(status).body(err);
+    }
+    @ExceptionHandler(EntityRegistrationException.class)
+    public ResponseEntity<ApiErrorMessage> entityRegistration(EntityRegistrationException e, HttpServletRequest request) {
         HttpStatus status = HttpStatus.BAD_REQUEST;
         ApiErrorMessage err = new ApiErrorMessage(Instant.now(), status.value(), e.getMessage(), request.getRequestURI());
         return ResponseEntity.status(status).body(err);

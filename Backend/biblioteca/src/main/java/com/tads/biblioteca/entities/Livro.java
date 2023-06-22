@@ -14,11 +14,14 @@ import java.util.Set;
 @Table(name = "tb_livro")
 public class Livro {
     @Id
+    @Column(name = "livro_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
     private String autor;
-    private String description;
+    private String descricao;
+    private Integer quantidade;
+    private Boolean disponivel;
     @ManyToMany(mappedBy = "livros")
     private Set<Aluguel> alugueis = new HashSet<>();
 }

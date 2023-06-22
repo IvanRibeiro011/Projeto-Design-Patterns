@@ -1,6 +1,7 @@
 package com.tads.biblioteca.controllers;
 
 import com.tads.biblioteca.dtos.AluguelDTO;
+import com.tads.biblioteca.dtos.AluguelMinDTO;
 import com.tads.biblioteca.dtos.CalculoDTO;
 import com.tads.biblioteca.dtos.response.AluguelResponseDTO;
 import com.tads.biblioteca.services.AluguelService;
@@ -29,10 +30,10 @@ public class AluguelController {
     public ResponseEntity<Page<AluguelDTO>> findById(Pageable pageable) {
         return new ResponseEntity<>(service.findAll(pageable), HttpStatus.OK);
     }
-//    @GetMapping("/findByName/{name}")
-//    public ResponseEntity<List<AluguelDTO>> findByName(@PathVariable("name") String name) {
-//        return new ResponseEntity<>(service.findByAlunoName(name), HttpStatus.OK);
-//    }
+    @GetMapping("/findByName/{name}")
+    public ResponseEntity<List<AluguelMinDTO>> findByName(@PathVariable("name") String name) {
+        return new ResponseEntity<>(service.findByAlunoName(name), HttpStatus.OK);
+    }
 
     @PostMapping("/multa")
     public ResponseEntity<AluguelResponseDTO> calcularMulta(@RequestBody CalculoDTO dto) {

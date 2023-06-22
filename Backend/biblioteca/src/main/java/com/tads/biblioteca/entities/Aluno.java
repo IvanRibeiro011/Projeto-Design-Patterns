@@ -15,6 +15,7 @@ import java.util.List;
 @Table(name = "tb_aluno")
 public class Aluno {
     @Id
+    @Column(name = "aluno_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;

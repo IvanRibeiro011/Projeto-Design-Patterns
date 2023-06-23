@@ -30,7 +30,7 @@ public class AluguelService {
     @Autowired
     private AluguelRepository repository;
     @Autowired
-    private AlunoService alunoService;
+    private UsuarioService usuarioService;
     @Autowired
     private LivroService livroService;
     @Autowired
@@ -114,7 +114,7 @@ public class AluguelService {
         } else {
             aluguel.setPendente(true);
         }
-        Usuario usuario = mapper.map(alunoService.findById(dto.getAlunoId()), Usuario.class);
+        Usuario usuario = mapper.map(usuarioService.findById(dto.getAlunoId()), Usuario.class);
         aluguel.setUsuario(usuario);
     }
 }

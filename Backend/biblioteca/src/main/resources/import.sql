@@ -3,7 +3,7 @@ INSERT INTO tb_livro(NOME, DESCRICAO, AUTOR,QUANTIDADE,DISPONIVEL) VALUES ('Livr
 INSERT INTO tb_livro(NOME, DESCRICAO, AUTOR,QUANTIDADE,DISPONIVEL) VALUES ('Livro 3', 'Descrição', 'Autor',10,TRUE);
 
 INSERT INTO tb_usuario(MATRICULA, NOME) VALUES ('123456', 'Ivanildo');
-INSERT INTO usuario(MATRICULA, NOME) VALUES ('123457', 'Vinicius');
+INSERT INTO tb_usuario(MATRICULA, NOME) VALUES ('123457', 'Vinicius');
 INSERT INTO tb_usuario(MATRICULA, NOME) VALUES ('123458', 'Lucas');
 --
 -- INSERT INTO tb_aluguel (aluno_id,data_aluguel,data_estipulada,data_devolucao) VALUES (1,NOW(),select dateadd(d,7,current_timestamp),select dateadd(d,8,current_timestamp));

@@ -39,7 +39,7 @@ public class LivroService {
 
     @Transactional
     public LivroDTO insert(LivroDTO dto) {
-        if (!repository.existsByNome(dto.getNome())) {
+        if (Boolean.FALSE.equals(repository.existsByNome(dto.getNome()))) {
             Livro livro = new Livro();
             copyDtoToEntity(livro, dto);
             return mapper.map(repository.save(livro), LivroDTO.class);

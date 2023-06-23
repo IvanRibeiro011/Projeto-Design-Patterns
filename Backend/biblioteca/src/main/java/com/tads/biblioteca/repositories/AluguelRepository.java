@@ -10,8 +10,8 @@ import java.util.List;
 @Repository
 public interface AluguelRepository extends JpaRepository<Aluguel, Long> {
     @Query("select obj from Aluguel obj " +
-            "join fetch obj.aluno " +
+            "join fetch obj.usuario " +
             "join fetch obj.livros" +
-            " where obj.aluno.nome = :name")
+            " where obj.usuario.nome = :name")
     List<Aluguel> findAluguelByAluno(String name);
 }

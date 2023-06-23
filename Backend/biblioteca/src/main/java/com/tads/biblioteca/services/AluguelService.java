@@ -6,7 +6,7 @@ import com.tads.biblioteca.dtos.CalculoDTO;
 import com.tads.biblioteca.dtos.LivroDTO;
 import com.tads.biblioteca.dtos.response.AluguelResponseDTO;
 import com.tads.biblioteca.entities.Aluguel;
-import com.tads.biblioteca.entities.Aluno;
+import com.tads.biblioteca.entities.Usuario;
 import com.tads.biblioteca.entities.Livro;
 import com.tads.biblioteca.exceptions.EntityNotAvailableException;
 import com.tads.biblioteca.exceptions.InvalidCalculationTypeException;
@@ -114,7 +114,7 @@ public class AluguelService {
         } else {
             aluguel.setPendente(true);
         }
-        Aluno aluno = mapper.map(alunoService.findById(dto.getAlunoId()), Aluno.class);
-        aluguel.setAluno(aluno);
+        Usuario usuario = mapper.map(alunoService.findById(dto.getAlunoId()), Usuario.class);
+        aluguel.setUsuario(usuario);
     }
 }

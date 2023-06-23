@@ -19,6 +19,7 @@ public class Livro {
     private Long id;
     private String nome;
     private String autor;
+    @Column(columnDefinition = "TEXT")
     private String descricao;
     private Integer quantidade;
     private Boolean disponivel;

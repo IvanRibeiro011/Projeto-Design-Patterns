@@ -25,8 +25,8 @@ public class Aluguel {
     private LocalDate dataDevolucao;
     private Boolean pendente;
     @ManyToOne
-    @JoinColumn(name = "a_id")
-    private Aluno aluno;
+    @JoinColumn(name = "usuario_id")
+    private Usuario usuario;
 
     @ManyToMany
     @JoinTable(name = "tb_aluguel_livro", joinColumns = @JoinColumn(name = "aluguel_id"),

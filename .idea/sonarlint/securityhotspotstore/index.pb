@@ -11,8 +11,6 @@ TBackend/biblioteca/src/main/java/com/tads/biblioteca/exceptions/ApiErrorMessage
 VBackend/biblioteca/src/main/java/com/tads/biblioteca/controllers/LivroControllers.java,5\6\562ae9e1164f661efde9c15cdbfeb0535c9bad12
 î
 dBackend/biblioteca/src/main/java/com/tads/biblioteca/exceptions/InvalidCalculationTypeException.java,b\5\b56e37ab9d58c1bdb2e59475dc2afaaf2e7a176b
-
-OBackend/biblioteca/src/main/java/com/tads/biblioteca/BibliotecaApplication.java,e\a\ea5e679ab6f3c989b8cc447f392293961078c04b
 Å
 QBackend/biblioteca/src/main/java/com/tads/biblioteca/services/AluguelService.java,6\3\63a8068c75b134cb083745b1bf35061d40275161
 |
@@ -23,11 +21,7 @@ IBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/CalculoDTO.java,2\d\
 WBackend/biblioteca/src/main/java/com/tads/biblioteca/controllers/AluguelController.java,4\3\43602563fcb2a9c18a3a1c12724cf4ed1adf3402
 ê
 `Backend/biblioteca/src/main/java/com/tads/biblioteca/exceptions/EntityNotAvailableException.java,8\2\8206ce4eaf4794095a1a08a11194e9edce21e333
-ê
-`Backend/biblioteca/src/main/java/com/tads/biblioteca/exceptions/EntityRegistrationException.java,1\c\1c52df7604543dd5950664b3e758230feba7d9f1
 Ç
 RBackend/biblioteca/src/main/java/com/tads/biblioteca/config/ModelMapperConfig.java,b\7\b769c1d263b2e90308e73ed10e6df2672dc58c98
 w
 GBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/LivroDTO.java,c\e\ce1b5c5c6c2cd6fcc4d162f8477d6933cd1cfa1b
-x
-HBackend/biblioteca/src/main/java/com/tads/biblioteca/entities/Livro.java,c\f\cf7f3c7a499a35f6db86ed8ae6c4cd8b5fec9de9

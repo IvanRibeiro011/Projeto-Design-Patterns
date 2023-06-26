@@ -16,7 +16,6 @@ import java.util.Set;
 @Table(name = "tb_aluguel")
 public class Aluguel {
     @Id
-    @Column(name = "aluguel_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 

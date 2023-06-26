@@ -14,7 +14,6 @@ import java.util.Set;
 @Table(name = "tb_livro")
 public class Livro {
     @Id
-    @Column(name = "livro_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;

@@ -16,7 +16,6 @@ import java.util.*;
 @Table(name = "tb_usuario")
 public class Usuario implements UserDetails {
     @Id
-    @Column(name = "usuario_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;

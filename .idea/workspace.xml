@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6642079-1a6c-4e35-b54b-01ef655faeb2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Backend/biblioteca/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/biblioteca/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/biblioteca/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/biblioteca/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RA4OluBsUrDQRd90Kg9zgmwlFi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/irsneto/DevSuperior/projetosDevSuperior/dslist-backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "686d4ba6996ab7e2bd626c9a3cc965c6",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irsneto\projetosIFPE\biblioteca\Backend\biblioteca\src\main\resources" />
+      <recent name="C:\Users\irsneto\projetosIFPE\biblioteca\Backend\biblioteca\src\main\java\com\tads\biblioteca\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tads.biblioteca.repositories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BibliotecaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tads.biblioteca.BibliotecaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6642079-1a6c-4e35-b54b-01ef655faeb2" name="Changes" comment="" />
+      <created>1686679521727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686679521727</updated>
+      <workItem from="1686679523042" duration="8000000" />
+      <workItem from="1686865436034" duration="14352000" />
+      <workItem from="1686918803066" duration="14966000" />
+      <workItem from="1687284248455" duration="5666000" />
+      <workItem from="1687351464059" duration="3731000" />
+      <workItem from="1687381394719" duration="50000" />
+      <workItem from="1687435581173" duration="3902000" />
+      <workItem from="1687452252465" duration="2042000" />
+      <workItem from="1687521624912" duration="6192000" />
+      <workItem from="1687539993121" duration="4193000" />
+      <workItem from="1687780864877" duration="12587000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Backend/biblioteca/src/main/java/com/tads/biblioteca/services/AluguelService.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Backend/biblioteca/src/main/java/com/tads/biblioteca/services/AluguelService.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Backend/biblioteca/src/main/java/com/tads/biblioteca/services/AluguelService.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

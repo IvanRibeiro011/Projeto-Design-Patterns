@@ -1,6 +1,6 @@
 package com.tads.biblioteca.controllers;
 
-import com.tads.biblioteca.dtos.AlunoDTO;
+import com.tads.biblioteca.dtos.UsuarioDTO;
 import com.tads.biblioteca.services.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -13,16 +13,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/alunos")
-public class AlunoController {
+@RequestMapping("/users")
+public class UsuarioController {
     @Autowired
     private UsuarioService service;
     @GetMapping("{id}")
-    public ResponseEntity<AlunoDTO> findById(@PathVariable("id") Long id) {
+    public ResponseEntity<UsuarioDTO> findById(@PathVariable("id") Long id) {
         return new ResponseEntity<>(service.findById(id), HttpStatus.OK);
     }
     @GetMapping
-    public ResponseEntity<Page<AlunoDTO>> findAllPage(Pageable pageable){
+    public ResponseEntity<Page<UsuarioDTO>> findAllPage(Pageable pageable){
         return new ResponseEntity<>(service.findAllPage(pageable),HttpStatus.OK);
     }
 }

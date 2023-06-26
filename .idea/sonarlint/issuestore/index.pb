@@ -9,20 +9,12 @@ UBackend/biblioteca/src/main/java/com/tads/biblioteca/handler/ApiExceptionHandle
 TBackend/biblioteca/src/main/java/com/tads/biblioteca/exceptions/ApiErrorMessage.java,1\d\1dd0ca36888f5a548301284c61d5a8cc4014f424
 Ü
 VBackend/biblioteca/src/main/java/com/tads/biblioteca/controllers/LivroControllers.java,5\6\562ae9e1164f661efde9c15cdbfeb0535c9bad12
-y
-IBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/AluguelDTO.java,9\d\9de4eced28b95cfc0383a5a5b6a2e4098454bffa
-Ü
-VBackend/biblioteca/src/main/java/com/tads/biblioteca/repositories/AlunoRepository.java,c\3\c324a27b890ef22d70690e2931149d9bb9b292e1
 î
 dBackend/biblioteca/src/main/java/com/tads/biblioteca/exceptions/InvalidCalculationTypeException.java,b\5\b56e37ab9d58c1bdb2e59475dc2afaaf2e7a176b
 
 OBackend/biblioteca/src/main/java/com/tads/biblioteca/BibliotecaApplication.java,e\a\ea5e679ab6f3c989b8cc447f392293961078c04b
-w
-GBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/AlunoDTO.java,1\7\17c6fb18f8c38b2016f634b0bf6fbc882f45f7ef
 Å
 QBackend/biblioteca/src/main/java/com/tads/biblioteca/services/AluguelService.java,6\3\63a8068c75b134cb083745b1bf35061d40275161
-
-OBackend/biblioteca/src/main/java/com/tads/biblioteca/services/AlunoService.java,4\3\43b1a017176eedc5825e8183cb050160bb9ca2cf
 |
 LBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/AluguelMinDTO.java,f\e\fed1673d550c3885fd78535fe5bab7b3d1d714d5
 y
@@ -37,3 +29,5 @@ WBackend/biblioteca/src/main/java/com/tads/biblioteca/controllers/AluguelControl
 RBackend/biblioteca/src/main/java/com/tads/biblioteca/config/ModelMapperConfig.java,b\7\b769c1d263b2e90308e73ed10e6df2672dc58c98
 w
 GBackend/biblioteca/src/main/java/com/tads/biblioteca/dtos/LivroDTO.java,c\e\ce1b5c5c6c2cd6fcc4d162f8477d6933cd1cfa1b
+x
+HBackend/biblioteca/src/main/java/com/tads/biblioteca/entities/Livro.java,c\f\cf7f3c7a499a35f6db86ed8ae6c4cd8b5fec9de9
